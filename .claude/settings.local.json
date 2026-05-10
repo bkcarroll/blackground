@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(dotnet --version)",
+      "Bash(dotnet --list-sdks)",
+      "Bash(dotnet --list-runtimes)",
+      "Bash(dotnet new *)",
+      "Bash(dotnet sln *)",
+      "PowerShell(Remove-Item *)",
+      "Bash(dotnet build *)",
+      "PowerShell(Rename-Item *)",
+      "PowerShell(dotnet build *)"
+    ]
+  }
+}
